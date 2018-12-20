@@ -1,0 +1,136 @@
+$primary-color: black;
+$secondary-color: white;
+$font: 'Merienda', cursive;
+$stroke: .5px black;
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+.navbar {
+    background-image: url("../images/colorfulbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 200px;
+    padding: 0;
+    
+}
+
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    z-index: 0;
+    opacity: 0.3;
+}
+
+.z1{
+    z-index: 1;
+}
+
+a.nav-link {
+    color: $secondary-color;
+    font-size: 24px;
+    -webkit-text-stroke: $stroke;
+    font-weight: bold;
+}
+
+a.nav-link:hover {
+    color: gray;
+}
+
+.navbar-brand {
+    font-size: 40px;
+    font-family: $font;
+    -webkit-text-stroke: $stroke;
+    margin-left: 40px;
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: $secondary-color;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+h1 {
+    font-family: $font;
+    font-size: 55px;
+}
+
+
+
+.picture {
+    width:250px;
+    height:250px;
+    box-shadow: 4px 4px 10px rgb(94, 94, 94);
+       
+}
+
+
+
+.card {
+    box-shadow: 4px 4px 10px rgb(94, 94, 94); 
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.card-img-top {
+    width:  100%;
+    height: 157px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+// .card:hover {
+//     opacity: 0.5;
+//   }
+
+label {
+    font-size: 24px;
+}
+
+
+.container {
+    width: 65%;
+    background-color: $secondary-color;
+}
+
+p {
+    font-size: 16px;
+    
+}
+
+.github {
+    margin-left: 20px;
+}
+
+
+.contact {
+    width: 65%;
+    
+}
+
+.btn {
+    background-color: $primary-color;
+}
+

@@ -1,0 +1,119 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+.navbar {
+  background-image: url("../images/colorfulbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 200px;
+  padding: 0;
+}
+
+.navbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000000;
+  z-index: 0;
+  opacity: 0.3;
+}
+
+.z1 {
+  z-index: 1;
+}
+
+a.nav-link {
+  color: white;
+  font-size: 24px;
+  -webkit-text-stroke: 0.5px black;
+  font-weight: bold;
+}
+
+a.nav-link:hover {
+  color: gray;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  font-family: "Merienda", cursive;
+  -webkit-text-stroke: 0.5px black;
+  margin-left: 40px;
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+h1 {
+  font-family: "Merienda", cursive;
+  font-size: 55px;
+}
+
+.picture {
+  width: 250px;
+  height: 250px;
+  -webkit-box-shadow: 4px 4px 10px #5e5e5e;
+          box-shadow: 4px 4px 10px #5e5e5e;
+}
+
+.card {
+  -webkit-box-shadow: 4px 4px 10px #5e5e5e;
+          box-shadow: 4px 4px 10px #5e5e5e;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 157px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+label {
+  font-size: 24px;
+}
+
+.container {
+  width: 65%;
+  background-color: white;
+}
+
+p {
+  font-size: 16px;
+}
+
+.github {
+  margin-left: 20px;
+}
+
+.contact {
+  width: 65%;
+}
+
+.btn {
+  background-color: black;
+}
+/*# sourceMappingURL=style.css.map */
