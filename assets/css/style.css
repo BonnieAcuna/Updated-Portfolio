@@ -10,33 +10,23 @@ body {
 }
 
 .navbar {
-  background-image: url("../images/colorfulbackground.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: teal;
   height: 200px;
   padding: 0;
 }
 
-.navbar::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background: #000000;
-  z-index: 0;
-  opacity: 0.3;
+.nametitle {
+  color: white;
 }
 
-.z1 {
-  z-index: 1;
+a.nametitle:hover {
+  color: gray;
+  text-decoration: none;
 }
 
 a.nav-link {
   color: white;
   font-size: 24px;
-  -webkit-text-stroke: 0.5px black;
   font-weight: bold;
 }
 
@@ -65,8 +55,8 @@ h1 {
 }
 
 .picture {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   -webkit-box-shadow: 4px 4px 10px #5e5e5e;
           box-shadow: 4px 4px 10px #5e5e5e;
 }
