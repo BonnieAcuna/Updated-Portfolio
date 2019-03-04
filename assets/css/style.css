@@ -20,24 +20,24 @@ body {
 }
 
 a.nametitle:hover {
-  color: gray;
+  color: grey;
   text-decoration: none;
 }
 
 a.nav-link {
   color: white;
   font-size: 24px;
+  font-family: "Merienda";
   font-weight: bold;
 }
 
 a.nav-link:hover {
-  color: gray;
+  color: grey;
 }
 
 .navbar-brand {
   font-size: 40px;
-  font-family: "Merienda", cursive;
-  -webkit-text-stroke: 0.5px black;
+  font-family: "Merienda";
   margin-left: 40px;
 }
 
@@ -50,13 +50,13 @@ a.nav-link:hover {
 }
 
 h1 {
-  font-family: "Merienda", cursive;
+  font-family: "Merienda";
   font-size: 55px;
 }
 
 .picture {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 250px;
   -webkit-box-shadow: 4px 4px 10px #5e5e5e;
           box-shadow: 4px 4px 10px #5e5e5e;
 }
